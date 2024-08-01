@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar ul li{
+    padding: 6px 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+@media(max-width:576px){
+    .d-link{
+        display: none;
+    }
+
+}
+
+/* her css start */
+
+.hero{
+    background-image: url('./istockphoto-1829241109-1024x1024.jpg.jpg');
+    height: 90vh;
+    object-fit: cover;
+}
+
+.hero-txt{
+    width:80%;
+    /* border:3px solid red; */
+    text-align: center;
+    margin-left: 10vw;
+    padding-top: 22vh;
+
+}
+.hero-txt h1{
+    font-size: 40px;
+    color: black;
+    letter-spacing: 3px;
+}
+.hero-txt p{
+    font-size: 20px;
+    color: black;
+}
+@media (max-width:576px)
+{
+    .hero-txt h1{
+        font-size: 25px;
+    }
+
+    .hero-txt p{
+        font-size: 20px;
+        color: white;
+}
+.hero-txt {
+    padding-top: 18vh;
+}
+}
+
+.btn{
+    padding: 10px 32px;
+    border-radius: 20px;
+    font-size: 16px;
+     background-color: orange;
+    color: white;
+   
+    cursor: pointer;
+    border: none;
+    border: 1px solid orange;
+}
+
+.btn:hover{
+    background-color: black;
+    color: orange;
+   
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+.about-head{
+    text-align: center;
+}
+
+.about-h1{
+    font-size: 30px;
+}
+.about-p{
+    font-size: 20px;
+}
+
+.about-card{
+    width: 300px;
+    /* border: 1px solid red; */
+    padding: 5px 10px;
+    border: 1px solid grey;
+    border-radius: 12px;
+}
+
+.about-card h3{
+        margin: 10px 0px;
+ 
+}
+
+.about-card h4{
+    margin: 12px 0px;
+}
+
+.about-card p{
+    margin: 8px 0px;
+}
+.about-us , .gallery {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+/* gallery starts */
+.gallery-img{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+}
+.gallery-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Subscription Start */
+.sub-card{
+    width: 300px;
+    border: 1px solid orange;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.text-center{
+    text-align: center;
+
+}
+
+.price{
+    color: rgb(255, 136, 0);
+    font-size: 30px;
+    margin: 10px 0px;
+    
+}
+.text-basic{
+    margin: 12px 0px;
+
+}
+.text-month{
+    margin: 8px 0px;
+}
+.get-plan{
+    padding: 7px 32px;
+    width: 100%;
+    font-size: 18px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    border-radius: 16px;
+    border: none;
+    
+}
+.subscription{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.footer{
+    margin-top: 20px;
+    background-color: rgb(243, 221, 179);
+}
+.footer p{
+    text-align: center;
+    font-size: 20px;
+    padding: 16px 0px;
+    margin: 16px 0px 0px 0px;
+}
